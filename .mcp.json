@@ -1,0 +1,55 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-fdb289ca-c27d-4ce3-b95c-e6730e0c19eb"
+      ],
+      "disabled": true,
+      "alwaysAllow": []
+    },
+    "ide": {
+      "command": "claude",
+      "args": [
+        "mcp",
+        "start",
+        "ide"
+      ],
+      "disabled": true,
+      "alwaysAllow": []
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ],
+      "disabled": true,
+      "alwaysAllow": []
+    },
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "-e",
+        "GITHUB_TOOLSETS",
+        "-e",
+        "GITHUB_READ_ONLY",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "",
+        "GITHUB_TOOLSETS": "",
+        "GITHUB_READ_ONLY": ""
+      },
+      "disabled": true,
+      "alwaysAllow": []
+    }
+  }
+}
