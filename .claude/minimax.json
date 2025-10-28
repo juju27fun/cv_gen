@@ -1,0 +1,16 @@
+{
+  "env":{
+      "ANTHROPIC_BASE_URL": "https://api.minimax.io/anthropic",
+      "ANTHROPIC_AUTH_TOKEN": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJHcm91cE5hbWUiOiJMb3VpcyB0ZXBlIiwiVXNlck5hbWUiOiJMb3VpcyB0ZXBlIiwiQWNjb3VudCI6IiIsIlN1YmplY3RJRCI6IjE5ODIzNDAxNjkyNTE5NTUxMjkiLCJQaG9uZSI6IiIsIkdyb3VwSUQiOiIxOTgyMzQwMTY5MjQ3NzU2NzI5IiwiUGFnZU5hbWUiOiIiLCJNYWlsIjoidGVwZWxvdWlzQGdtYWlsLmNvbSIsIkNyZWF0ZVRpbWUiOiIyMDI1LTEwLTI2IDE2OjE3OjUyIiwiVG9rZW5UeXBlIjoxLCJpc3MiOiJtaW5pbWF4In0.qcQ46xv483mhbiAr7UUke_jF-Ed03GpT5Co6tkTPKpOD1xQizryiGbW22LJurSGuZqEIGD_GYuWSf2iuxJ0_UJtjKn04a04nYDkNxZRcwPuMGKmkTnsIaXvhyy0KBzKARNSfqytjuYVgzKOBvuU-MP4deTNfoT0h_-qtA3pazZ1VILDEOoRYL4ZNP-Ao8kj3RrD1a7_-x8Xkwk3e8sFoOFE01ceDudQTib6kEo0J7VQm64v7yxnmRlGIgNKeGhcYk7larWg5KqEwbVI_47_Orxs7x5rcVHBsvdFAF3o1-EJsuUQ-vdP5_-FeP-SrgQGv_YLNnfV1UqqDjRs2s3Ra4Q",
+      "API_TIMEOUT_MS": "3000000",
+      "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
+      "ANTHROPIC_MODEL": "MiniMax-M2",
+      "ANTHROPIC_SMALL_FAST_MODEL": "MiniMax-M2"
+  },
+  "permissions": {
+    "allow": [],
+    "deny": [],
+    "ask": []
+  },
+  "enabledMcpjsonServers": []
+}
